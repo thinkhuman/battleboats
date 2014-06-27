@@ -27,10 +27,10 @@ div#messageArea {
 	color: rgb(83, 175, 19);
 }
 .hit {
-	background: url("ship.png") no-repeat center center;
+	background: url("../img/ship.png") no-repeat center center;
 }
 .miss {
-	background: url("miss.png") no-repeat center center;
+	background: url("../img/miss.png") no-repeat center center;
 }
 table {
 	border-spacing: 0px; 
@@ -38,7 +38,7 @@ table {
 	/* border-collapse: collapse; */
 	position: absolute;
 	left: 173px;
-	top: 98px;
+	top: 100px;
 }
 td {
 	width: 94px;

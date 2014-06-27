@@ -8,19 +8,19 @@ table, th, td {
    border: 1px solid green;
    text-align: center;
    color: #FFFFFF;
-   font-size: 24px;
+   font-size: 48px;
+   text-shadow: 2px 2px #888;
    font-family: arial, Helvetica, sans-serif;
 } 
 
-div#board {
+#board {
 	position: relative;
 	width: 1024px;
 	height: 863px;
 	margin: auto;
-	/*background: url("../img/board.jpg") no-repeat;*/
 }
 
-div#messageArea {
+#messageArea {
 	position: absolute;
 	top: 0px;
 	left: 0px;
@@ -46,8 +46,8 @@ td {
 }
 form {
 	position: absolute;
-	bottom: 0px;
-	right: 0px;
+	left: 640px;
+	top: 20px;
 	padding: 15px;
 	background-color: rgb(83, 175, 19);
 }

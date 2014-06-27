@@ -3,8 +3,13 @@ body {
 	background-color: black;
 }
 
+
 table, th, td {
-   border: 1px solid white;
+   border: 1px solid green;
+   text-align: center;
+   color: #FFFFFF;
+   font-size: 24px;
+   font-family: arial, Helvetica, sans-serif;
 } 
 
 div#board {
@@ -38,7 +43,6 @@ table {
 td {
 	width: 94px;
 	height: 94px;
-	border-image: 
 }
 form {
 	position: absolute;
